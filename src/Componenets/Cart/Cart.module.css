@@ -1,0 +1,75 @@
+/* .cart-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 20rem;
+    overflow-y: scroll;
+  } */
+
+  .cart-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 20rem;
+    overflow-y: scroll;
+
+    /* Style the scrollbar */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #ccc #f4f4f4; /* For Firefox */
+  }
+
+  .cart-items::-webkit-scrollbar {
+        width: 4px; /* Width of the vertical scrollbar */
+    }
+
+    .cart-items::-webkit-scrollbar-thumb {
+        background-color: #71361f; /* Color of the scrollbar thumb */
+        border-radius: 8px; /* Border radius for the thumb */
+    }
+
+    .cart-items::-webkit-scrollbar-thumb:hover {
+        background-color: #aaa; /* Color of the thumb on hover */
+    }
+
+    .cart-items::-webkit-scrollbar-track {
+        background-color: #f4f4f4; /* Color of the scrollbar track */
+    }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .actions {
+    text-align: right;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #5a1a01;
+    border-color: #5a1a01;
+    color: white;
+  }
+  
+  .actions .button--alt {
+    color: #8a2b06;
+  }
+  
+  .actions .button {
+    background-color: #8a2b06;
+    color: white;
+  }
