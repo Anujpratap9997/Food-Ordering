@@ -3,7 +3,7 @@ import classes from './Checkout.module.css';
 
 
 const isEmpty =value => value.trim()===''; // Helper function to validate the input are not empty
-const isFiveChars =value=> value.trim().length === 6 || isEmpty(value);
+const isFiveChars =value=> value.trim().length === 6 && value.trim()==='';
 const Checkout = (props) => {
 
 
